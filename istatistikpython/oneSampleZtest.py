@@ -15,7 +15,7 @@ if p<alfa:
 else:
     print("H0 reddedilemez")
 
-#genelde z testi yerine z testi kullanılır
+#genelde z testi yerine t testi kullanılır
 #çünkü z testinde popülasyon standart sapma ve
 #ortalaması bilinmelidir
 #ancak gerçek hayatta biz örneklemlerle çalışırız

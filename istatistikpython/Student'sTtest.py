@@ -4,7 +4,7 @@ veri=[25,26,25,20,18,29,30,32,17,23,34,27,26,30,33,32,21,21,20,11,16,14,15,18,19
 #önceki verilere göre bir snraki sınavın ortalamaısnın 28 olma ihtimali nedir
 #burada 28 olması H0 dır ve ana kitleyi oluşturur.
 alfa=0.05 #%95 güven aralığında çalışıcaz
-#popmean bizim seçtiğimiz değerdir ayrıca two sided da bir değer seçtiğimiz için ift kyruk yapısında
+#popmean bizim seçtiğimiz değerdir ayrıca two sided da bir değer seçtiğimiz için çift kyruk yapısında
 #çalışacağımızı ifade eder.
 thesap,p=stats.ttest_1samp(veri,popmean=28,alternative="two-sided")
 #stats ın 1 samp t testi ikiparametre döndürür ilki hesaplanan t değeri ikincisi ise olasılık alanı olan p
